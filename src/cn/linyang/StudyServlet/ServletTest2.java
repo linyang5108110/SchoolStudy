@@ -33,6 +33,7 @@ public class ServletTest2 extends HttpServlet {
 
         }else {
             resp.sendRedirect("/school/error.html");
+            System.out.println("简单更改");
         }
     }
 }
